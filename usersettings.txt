@@ -1,0 +1,30 @@
+# copy this into settings.json
+
+{
+    // disable unwanted codeLens options such as the currentline blame
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    // editor theme
+    "workbench.colorTheme": "Nord",
+    // editor view options
+    "window.menuBarVisibility": "toggle",
+    // add editor ruler
+    "editor.rulers": [
+        80
+    ],
+    "terminal.integrated.rendererType": "dom",
+    "editor.cursorBlinking": "smooth",
+    "workbench.activityBar.visible": false,
+    "zenMode.centerLayout": false,
+    "window.titleBarStyle": "custom",
+    "window.title": "${dirty}${activeEditorShort} @ ${folderName}",
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "explorer.confirmDelete": false,
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "workbench.editor.showTabs": false
+}
